@@ -71,6 +71,7 @@ GEM
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
     json (1.8.6)
+    libv8 (3.3.10.4-x86_64-linux)
     mail (2.4.4)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -128,6 +129,8 @@ GEM
     sshkit (1.15.1)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
+    therubyracer (0.9.9)
+      libv8 (~> 3.3.10)
     thor (0.20.0)
     tilt (1.4.1)
     treetop (1.4.15)
@@ -153,6 +156,7 @@ DEPENDENCIES
   rails (= 3.2.9)
   sass-rails (~> 3.2.3)
   sqlite3
+  therubyracer
   uglifier (>= 1.0.3)
 
 BUNDLED WITH
